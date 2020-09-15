@@ -1,0 +1,36 @@
+.fa-trash
+{
+  color:red;
+  float:right;
+}
+.container
+{
+  border:1px solid black;
+  padding:20px 20px 20px 20px;
+  border-radius:10px;
+  transform:translate(0,100px);
+  background-color:white;
+}
+.btn{
+  border-radius:20px;
+  width:100px;
+   background:linear-gradient(-45deg,/*,#FFC371,#ff5858*/#3a7bd5,#00d2ff); 
+  opacity:0.8;
+}
+body{
+  background:linear-gradient(45deg,#e96443,#904e95,#3a7bd5,#00d2ff,#B993D6,#8CA6DB,#f2709c,#ff9472,/*#f857a6,#ff5858, 
+  #FF5F6D,#FFC371,#EECDA3,#EF629F*/#ED4264,#FFEDBC);
+  background-size: 400% 400%;
+  animation: gradient 100s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
