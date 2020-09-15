@@ -19,7 +19,7 @@ class AddTodo extends Component{
             <div>
                 <form onSubmit={this.handleSubmit}>
                     <label>Add new Todo:</label>
-                    <input type="text" name="inp" onChange={this.handleChange} value={this.state.content} required></input>
+                    <input type="text" name="inp" onChange={this.handleChange} value={this.state.content} autocomplete="off" required></input>
                    <div className="center-align"><button class="btn waves-effect waves-light center-align" type="submit" >Add</button></div> 
                    
                 </form>
